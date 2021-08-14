@@ -1,0 +1,37 @@
+@media only screen and (max-width: 576px) {
+    div.contenedor > div{
+        width: 100%;
+    }
+     
+    .no {
+        display: none;
+    }
+    
+    .cuerpo img {
+        width: 540px;
+        height: 220px;
+    }  
+
+    div.listado-izquierdo > div {
+        display: none;
+    }
+    
+    .listad-noticias {
+        display: block;
+    }
+    
+
+     h2 {
+         font-size: 20px;
+         font-weight: bold;
+     }
+
+     p {
+         font-size: 18px;
+         font-weight: normal;
+     }
+
+    
+}
+
+

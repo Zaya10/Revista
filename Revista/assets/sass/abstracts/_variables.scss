@@ -1,0 +1,19 @@
+
+$roboto: 'Roboto', sans-serif;
+$open:'Open Sans', sans-serif;
+
+
+
+h1 {
+    @include h;
+}
+
+h2 {
+    @include h;
+}
+
+p {
+    font-size: 12px;
+    font-family: $roboto;
+    font-weight: normal;
+}

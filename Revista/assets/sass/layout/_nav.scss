@@ -1,0 +1,21 @@
+.navigation {
+    @include menu;
+}
+.logo {
+    @include logo;
+}
+
+.navigation_list {
+    width: 840px;
+    text-align: right;
+}
+
+.navigation_list ul li {
+    display: inline-block;
+}
+
+.navigation_list ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,43 @@
+@mixin list-not {
+    float: left;
+    display: grid;
+    grid-template-columns: 210px 210px 210px;
+    grid-auto-rows: 470px 470px;
+    grid-gap: 30px;
+}
+
+@mixin list-iz {
+    display: grid;
+    grid-template-columns: 220px;
+    grid-template-rows: 200px;
+    float: right;
+}
+
+@mixin logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+@mixin menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;   
+}
+
+@mixin new {
+    background-color: #f2f4f5;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    height: 150px;
+}
+
+@mixin h {
+    font-size: 20px;
+    font-family: $open;
+    font-weight: 600;
+}

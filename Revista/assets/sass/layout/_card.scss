@@ -1,0 +1,45 @@
+.noticia {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+
+.cabecera-listado {
+    border-bottom: 1px solid gray;
+}
+
+
+.tags {
+    border-bottom: 1px solid gray;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+    margin-left: 35px;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+    display: inline-block;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+
+.New {
+    @include new;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
